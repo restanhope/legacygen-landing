@@ -8,9 +8,16 @@ module.exports = {
         sans: ["Inter Variable", ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: "var(--color-primary)",
-        secondary: "var(--color-secondary)",
-      },
+  primary: "var(--color-primary)",
+  secondary: "var(--color-secondary)",
+
+  brand: {
+    green: "#2F6B1F",
+    greenDark: "#255718",
+    stone: "#E6E3DC",
+    charcoal: "#1F2933",
+  },
+},
       textColor: {
         default: "var(--color-text)",
         offset: "var(--color-text-offset)",
