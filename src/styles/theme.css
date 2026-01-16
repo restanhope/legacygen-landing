@@ -1,20 +1,11 @@
 [data-theme="light"] {
-  --color-primary: #2f6b1f;
-  --color-secondary: #4a8f2f;
-  --color-text: #1f2933;
-  --color-text-offset: #4b5563;
-  --color-background: #e7e5de;
-  --color-background-offset: #f2f1ec;
-  --color-border: rgba(31, 41, 51, 0.12);
+  --color-primary: #236600;        /* Brand green */
+  --color-secondary: #233E1F;      /* Dark green */
+  --color-text: #000000;           /* Black text */
+  --color-text-offset: #233E1F;    /* Muted green text */
+  --color-background: #F5F5F5;     /* Off-white */
+  --color-background-offset: #E1DFD9; /* Tan sections */
+  --color-border: #233E1F1A;       /* Dark green @ ~10% */
 }
 
-[data-theme="dark"] {
-  --color-primary: #4a8f2f;
-  --color-secondary: #6fbf4a;
-  --color-text: #e5e7eb;
-  --color-text-offset: #9ca3af;
-  --color-background: #1f2933;
-  --color-background-offset: #111827;
-  --color-border: rgba(229, 231, 235, 0.12);
-}
 
