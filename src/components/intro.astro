@@ -2,29 +2,25 @@
 import { Icon } from "astro-icon/components";
 import ContentSection from "~/components/content-section.astro";
 ---
+<ContentSection title="Who this is for" id="intro">
+  <Icon slot="eyebrow" name="mdi:briefcase-outline" class="size-16" />
 
-<ContentSection title="Just ship less" id="intro">
-  <Icon slot="eyebrow" name="logomark" class="size-32" />
   <Fragment slot="lead">
-    Astro is a new kind of site builder for the
-    <span class="text-primary">modern</span> web.
-    <span class="text-primary">Lightning-fast</span>
-    performance meets <span class="text-primary">powerful</span> developer experience.
+    This is for business owners who already know their financial world is too
+    fragmented — and want one clear point of strategic oversight.
   </Fragment>
-  <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
-    <a
-      href="https://docs.astro.build/"
-      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
-    >
-      <Icon name="mdi:telescope" class="size-8" />
-      <span>Read the docs</span>
-    </a>
-    <a
-      href="https://astro.new/"
-      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
-    >
-      <Icon name="mdi:rocket" class="size-8" />
-      <span>Try it out</span>
-    </a>
+
+  <div class="mx-auto max-w-3xl text-center space-y-4 text-lg text-text-offset">
+    <p>
+      If your accounting, tax planning, reporting, and long-term financial
+      decisions all live in different places, clarity gets lost.
+    </p>
+    <p>
+      We work with established owners who don’t need convincing —
+      they need coordination, confidence, and a trusted advisor who sees
+      the full picture.
+    </p>
   </div>
 </ContentSection>
+
+
